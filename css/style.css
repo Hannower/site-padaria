@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10rem auto;
+    background-color: #415e4c;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.logo img {
+    height: 7rem;
+    width: 9rem;
+}
+
+.menu ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 25px;
+    
+
+    li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        transition: 0.5s;
+    }
+    
+    li a:hover {
+        color: #d57b2e;
+    }
+}
+
+.redes-sociais {
+    font-size: 2rem;
+}
+
+.barra-de-busca input {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.barra-de-busca button {
+    border: none;
+    padding: 0.4rem;
+    border-radius: 1.5rem;
+    color:#ffffff;
+    font-weight: bold;
+    background-color: #d57b2e;
+    transition: 0.5s;
+}
+
+.barra-de-busca button:hover {
+    cursor: pointer;
+    background-color:#ffffff;
+    color: #d57b2e;
+}
